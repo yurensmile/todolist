@@ -1,0 +1,100 @@
+.App {
+  margin-top: 2%;
+  text-align: center;
+}
+
+input[type="checkbox"]{
+  display: none;
+}
+
+ul{
+  list-style-type: none;
+}
+li{
+  display: inline-block;
+  width: 38%;
+  line-height: 36px;
+  height: 40px;
+  margin-bottom: 4px;
+  margin-left: -3%;
+  border: 2px solid rgba(236, 240, 241,1.0);
+  box-shadow: 3px 3px 1px rgba(236, 240, 241,1.0);
+  font-size: 18px;
+}
+.choice{
+  margin-top: 10px;
+  margin-right: 3px;
+  box-shadow: 2px 2px 1px rgba(189, 195, 199,1.0);
+  display: inline-block;
+  width: 12%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border:3px solid rgb(197, 193, 193);
+}
+.later{
+  /* border-color: red; */
+  background-color: rgba(231, 76, 60,1.0);
+  border-color: rgba(231, 76, 60,1.0);
+}
+.havedone{
+  /* border-color: green; */
+  background-color:rgba(46, 204, 113,1.0);
+  border-color: rgba(46, 204, 113,1.0);
+}
+.all{
+  background-color: rgba(243, 156, 18,1.0);
+  border-color:rgba(243, 156, 18,1.0);
+}
+
+.App-link {
+  color: #61dafb;
+}
+input[type="text" ]{
+  width: 30%;
+  height: 30px;
+  box-shadow: 3px 3px 3px rgba(189, 195, 199,1.0);
+  font-size: 18px;
+}
+.later.circle{
+  height: 15px;
+  width: 15px;
+  background-color: rgba(231, 76, 60,1.0);
+  border-radius: 50%;
+  display: inline-block;
+}
+.havedone.circle{
+  height: 15px;
+  width: 15px;
+  background-color: rgba(46, 204, 113,1.0);
+  border-radius: 50%;
+  display: inline-block;
+}
+.all.circle{
+  height: 15px;
+  width: 15px;
+  background-color: rgba(243, 156, 18,1.0);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+button{
+  background-color: rgba(26, 188, 156,1.0);
+  border: 0px;
+  width: 7%;
+  height: 38px;
+  box-shadow: 2px 2px 1px rgba(189, 195, 199,1.0);
+}
+.delete{
+  width: 239px;
+  float: right;
+  visibility: hidden;
+}
+li:hover>button{
+  visibility: visible;
+}
+#content{
+  margin-left: auto;
+  margin-right: auto;
+}

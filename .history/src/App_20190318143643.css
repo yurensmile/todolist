@@ -1,0 +1,15 @@
+/* .App {
+  text-align: center;
+} */
+
+li{
+  width: 100px;
+  height: 40px;
+  border: 1px solid rgba(143, 121, 121, 0.1);
+  line-height: 20px;
+  height: 20px;
+  margin: 1px;
+}
+.App-link {
+  color: #61dafb;
+}

@@ -1,0 +1,61 @@
+.App {
+  margin-top: 2%;
+  text-align: center;
+}
+
+input[type="checkbox"]{
+  visibility: hidden;
+}
+
+ul{
+  list-style-type: none;
+}
+li{
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  line-height: 30px;
+  height: 30px;
+  margin-bottom: 4px;
+}
+.choice{
+  margin-top: 10px;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  border:2px solid rgb(197, 193, 193);
+}
+.later{
+  border-color: red;
+}
+.havedone{
+  border-color: green;
+}
+.all{
+  border-color: blue;
+}
+
+.toggle{
+  display: inline-block;
+}
+.App-link {
+  color: #61dafb;
+}
+input[type="text" ]{
+  width: 30%;
+  height: 30px;
+  box-shadow: 2px 2px 1px rgba(189, 195, 199,1.0);
+}
+
+button{
+  background-color: rgba(26, 188, 156,1.0);
+  border: 0px;
+  width: 7%;
+  height: 38px;
+  box-shadow: 2px 2px 1px rgba(189, 195, 199,1.0);
+}
+
+#content{
+  margin-left: 0px;
+  margin-right: 0px;
+}

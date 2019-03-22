@@ -1,0 +1,72 @@
+.App {
+  margin-top: 2%;
+  text-align: center;
+}
+
+input[type="checkbox"]{
+  visibility: hidden;
+}
+
+ul{
+  list-style-type: none;
+}
+li{
+  display: inline-block;
+  width: 35%;
+  line-height: 30px;
+  height: 30px;
+  margin-bottom: 4px;
+  margin-left: -6%;
+  border: 2px solid rgba(189, 195, 199,1.0);
+}
+.choice{
+  margin-top: 10px;
+  margin-right: 3px;
+  box-shadow: 2px 2px 1px rgba(189, 195, 199,1.0);
+  display: inline-block;
+  width: 12%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border:3px solid rgb(197, 193, 193);
+}
+.later{
+  /* border-color: red; */
+  background-color: rgba(231, 76, 60,1.0);
+  border-color: rgba(231, 76, 60,1.0);
+}
+.havedone{
+  /* border-color: green; */
+  background-color:rgba(46, 204, 113,1.0);
+  border-color: rgba(46, 204, 113,1.0);
+}
+.all{
+  background-color: rgba(243, 156, 18,1.0);
+  border-color:rgba(243, 156, 18,1.0);
+}
+
+.toggle{
+  display: inline-block;
+}
+.App-link {
+  color: #61dafb;
+}
+input[type="text" ]{
+  width: 30%;
+  height: 30px;
+  box-shadow: 3px 3px 3px rgba(189, 195, 199,1.0);
+  font-size: 18px;
+}
+
+button{
+  background-color: rgba(26, 188, 156,1.0);
+  border: 0px;
+  width: 7%;
+  height: 38px;
+  box-shadow: 2px 2px 1px rgba(189, 195, 199,1.0);
+}
+
+#content{
+  margin-left: auto;
+  margin-right: auto;
+}

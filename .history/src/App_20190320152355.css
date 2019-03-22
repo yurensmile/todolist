@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  /* border: 1px solid rgba(143, 121, 121, 0.1); */
+  line-height: 30px;
+  height: 30px;
+  margin-bottom: 4px;
+}
+.choice{
+  margin-top: 10px;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  border:2px solid rgb(197, 193, 193);
+}
+.later{
+  border-color: blue;
+}
+.havedone{
+  border-color: green;
+}
+.all{
+  border-color: red;
+}
+
+.toggle{
+  display: inline-block;
+}
+.App-link {
+  color: #61dafb;
+}
